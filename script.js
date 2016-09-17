@@ -1,7 +1,7 @@
 /***************************/  
 //@Author: Superjd10
-//@website: http://superjd10.com.ar
-//@email: superjd10@superjd10.com.ar
+//@website: http://superjd10.com
+//@email: superjd10@superjd10.com
 //@license: Gratis, pero por favor deja esta marca!
 /***************************/  
 
