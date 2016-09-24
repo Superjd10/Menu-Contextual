@@ -5,7 +5,6 @@
 // @license: MIT
 /***************************/
 
-
 //When DOM is ready / Cuando el documento esta listo...
 $(document).ready(function(){
 
@@ -22,7 +21,7 @@ $(document).bind("contextmenu", function(e){
 	//controlamos ocultado de menu cuando esta activo
 	//click boton principal raton
 	$(document).click(function(e){
-		if(e.button == 0 && e.target.parentNode.parentNode.id != menuId){
+		if(e.button == 0 && e.target.parentNode.id != menuId){
 			menu.css("display", "none");
 		}
 	});
@@ -35,6 +34,7 @@ $(document).bind("contextmenu", function(e){
 
 	//Control sobre las opciones del menu contextual
 	menu.click(function(e){
+
 		//si la opcion esta desactivado, no pasa nada
 		if(e.target.className == "disabled"){
 			return false;

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Menú contextual personalizado</title>
+  <title>Custom Right Click</title>
 
-  <meta name="description" content="Menú contextual personalizado usando jQuery">
+  <meta name="description" content="Custom right click using jQuery">
 
   <!-- CSS  -->
   <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" rel="stylesheet" media="bogus" onload="if(media!='all')media='all'">
@@ -35,14 +35,14 @@
       <div class="nav-wrapper container">
         <a id="logo-container" href="/" class="white-text brand-logo">Superjd10</a>
         <ul class="right hide-on-med-and-down">
-          <li><a class="white-text" href="https://superjd10.com">Inicio</a></li>
-          <li class="active"><a class="white-text" href="https://github.superjd10.com">Portafolio - Ejemplos</a></li>
+          <li><a class="white-text" href="https://superjd10.com">Home</a></li>
+          <li class="active"><a class="white-text" href="https://github.superjd10.com">Portfolio - Demos</a></li>
           <li><a class="white-text" href="https://superjd10.com/blog">Blog</a></li>
           </ul>
 
         <ul id="nav-global" class="side-nav">
           <li><a href="https://superjd10.com">Inicio</a></li>
-          <li class="active"><a href="https://github.superjd10.com">Portafolio - Ejemplos</a></li>
+          <li class="active"><a href="https://github.superjd10.com">Portfolio - Demos</a></li>
           <li><a href="https://superjd10.com/blog">Blog</a></li>
         </ul>
         <a href="#" data-activates="nav-global" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -53,30 +53,30 @@
   <div class="section">
     <div class="container center-align">
 
-      <h3>Menú Contextual Personalizado</h3>
+      <h3>Custom Right Click</h3>
 
-      <h5 class="header light">Hice este demo en el año 2012, el código puede ser algo desordenado (mucho), pero es funcional. Le hice modificaciones correspondientes al año 2016 usando Materializecss.</h5>
+      <h5 class="header light">I made this code back in 2012, the code may be a little mess ("a little"), but it is working. I made some modifications to make it look 2016-ish using Materializecss.</h5>
 
-      <a href="https://github.com/Superjd10/Menu-Contextual" class="btn-large lighten-1 blue">Código Fuente</a>
-      <a href="https://github.superjd10.com/Menu-Contextual/bootstrap.es.html" class="btn-large lighten-1 blue">Ejemplo usando Bootstrap</a>
+      <a href="https://github.com/Superjd10/Menu-Contextual" class="btn-large lighten-1 blue">Source Code</a>
+      <a href="https://github.superjd10.com/Menu-Contextual/bootstrap.en.html" class="btn-large lighten-1 blue">Bootstrap Example</a>
 
     </div>
   </div>
 
   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-    <a class="btn-floating btn-large blue lighten-1" href="index.en.html">
+    <a class="btn-floating btn-large blue lighten-1" href="index.html">
       <i class="fa fa-language" aria-hidden="true"></i>
     </a>
   </div>
 
   <div id="menuclickderecho">
       <ul class="collection">
-        <li class="collection-item" id="menu_anterior" class="dropdown-header"><i class="fa fa-chevron-left" aria-hidden="true"></i> Página Anterior</li>
-        <li class="collection-item" id="menu_recargar" class="dropdown-header"><i class="fa fa-refresh" aria-hidden="true"></i> Recargar Página</li>
-        <li class="collection-item" id="menu_source"><a href="#source-code" id="view-source"><i class="fa fa-code" aria-hidden="true"></i> Ver Código</a></li>
+        <li class="collection-item" id="menu_anterior" class="dropdown-header"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous Page</li>
+        <li class="collection-item" id="menu_recargar" class="dropdown-header"><i class="fa fa-refresh" aria-hidden="true"></i> Reload Page</li>
+        <li class="collection-item" id="menu_source"><a href="#source-code" id="view-source"><i class="fa fa-code" aria-hidden="true"></i> View Source</a></li>
         <li role="separator" class="divider"></li>
-        <li class="collection-item" id="menu_web"><a href="https://superjd10.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Volver al Inicio</a></li>
-        <li class="collection-item" id="menu_examples"><a href="https://github.superjd10.com/"><i class="fa fa-folder" aria-hidden="true"></i> Volver al portafolio - ejemplos</a></li>
+        <li class="collection-item" id="menu_web"><a href="https://superjd10.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Back to Home</a></li>
+        <li class="collection-item" id="menu_examples"><a href="https://github.superjd10.com/"><i class="fa fa-folder" aria-hidden="true"></i> Back to demos - portfolio</a></li>
       </ul>
   </div>
 

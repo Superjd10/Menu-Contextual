@@ -1,0 +1,87 @@
+<!Doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Menú contextual personalizado</title>
+  <meta name="description" content="Menú contextual personalizado usando jQuery">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" media="bogus" onload="if(media!='all')media='all'">
+  <!-- Prettify -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//github.superjd10.com/sourcecode.css">
+
+</head>
+<body>
+
+  <div class="site-wrapper">
+
+     <div class="site-wrapper-inner">
+
+       <div class="cover-container">
+
+         <div class="masthead clearfix">
+           <div class="inner">
+             <h3 class="masthead-brand">Superjd10</h3>
+             <nav>
+               <ul class="nav masthead-nav">
+                 <li><a href="https://superjd10.com/">Inicio</a></li>
+                 <li class="active"><a href="https://github.superjd10.com/">Portafolio - Ejemplos</a></li>
+                 <li><a href="https://superjd10.com">Blog</a></li>
+               </ul>
+             </nav>
+           </div>
+         </div>
+
+         <div class="inner cover">
+           <h1 class="cover-heading">Menú Contextual Personalizado </h1>
+           <p class="lead">Hice este demo en el año 2012, el código puede ser algo desordenado (mucho), pero es funcional. Le hice modificaciones correspondientes al año 2016 usando Bootstrap.</p>
+           <p class="lead">
+             <a href="https://github.com/Superjd10/Menu-Contextual" class="btn btn-lg btn-default">Código Fuente</a>
+             <a href="https://github.superjd10.com/Menu-Contextual" class="btn btn-lg btn-default">Volver al ejemplo con Materialize</a>
+           </p>
+         </div>
+
+         <div class="mastfoot">
+           <div class="inner">
+             <p>Plantilla de cover usando <a href="http://getbootstrap.com">Bootstrap</a>, por <a href="https://twitter.com/mdo">@mdo</a>.</p>
+           </div>
+         </div>
+
+       </div>
+       <div class="pull-right"><a class="btn btn-danger btn-lg" href="bootstrap.en.html" role="button"><i class="fa fa-language fa-3x" aria-hidden="true"></i></a></div>
+     </div>
+
+   </div>
+
+   <div id="menuclickderecho">
+     <div class="dropdown open">
+       <ul class="dropdown-menu text-muted">
+         <li id="menu_anterior" class="dropdown-header"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span> Página Anterior</li>
+         <li id="menu_recargar" class="dropdown-header"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> Recargar Página</li>
+         <li id="menu_source"><a href="#source-code" id="view-source"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Ver Código</a></li>
+         <li role="separator" class="divider"></li>
+         <li id="menu_web"><a href="https://superjd10.com/" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Volver al Inicio</a></li>
+         <li id="menu_examples"><a href="https://github.superjd10.com/"> Volver al portafolio - ejemplos</a></li>
+       </ul>
+     </div>
+   </div>
+
+   <div id="source-code">
+     <a href="#" id="x"><img src="https://github.superjd10.com/x.png" alt="close"></a>
+   </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Prettify -->
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+
+  <script src="scripts.js"></script>
+
+  <script src="//github.superjd10.com/sourcecode.js"></script>
+
+</body>
+</html>
